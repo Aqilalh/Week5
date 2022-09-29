@@ -10,21 +10,20 @@ public class ShopApp {
         }
 return total;
     }
-    public static boolean isAFit(Clothing customer, Clothing clothing){
-        if(customer.getSize() == clothing.getSize()){
-          return true;
-        }else {
+    public static boolean isAFit(Customer customer, Clothing clothing) {
+        if (customer.getSize() == clothing.getSize()) {
+            return true;
+        } else {
             return false;
         }
-
     }
-
     public static void sortAndPrintClothing(ArrayList<Clothing> clothing){
 
 }
 public static void printEmployeeName(Employee employee){
+    System.out.println(employee.name);
     }
     public static void printDiscAmtOff(Discountable[] discountables, Clothing clothing){
-
+        System.out.println(D);
     }
 }

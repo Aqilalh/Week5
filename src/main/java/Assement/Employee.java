@@ -9,6 +9,7 @@ public abstract class Employee extends Customer{
 
 
     public double getDiscount() {
+
         return discount ;
     }
 

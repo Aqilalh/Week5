@@ -9,12 +9,13 @@ private final double discount = .25;
 
 
     public double getDiscount(){
-        return 0;
+        return discount;
     }
 
     @Override
     public void printEmpPriceAfterDisc(Clothing clothing) {
-
+        double total = clothing.getPrice() - calsDiscount(clothing);
+        System.out.println(total);
     }
 
     public String toString(){
@@ -23,6 +24,6 @@ private final double discount = .25;
 
     @Override
     public double calsDiscount(Clothing clothing) {
-        return 0;
+        return getDiscount() * clothing.getPrice();
     }
 }

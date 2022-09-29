@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class Customer {
 Clothing[] clothingitems = new Clothing[3];
+
 private char size;
 public String name;
 double discount;
