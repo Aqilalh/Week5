@@ -28,6 +28,7 @@ public class Main {
         System.out.println(ShopApp.isAFit(employees,jacket));
         System.out.println(ShopApp.isAFit(manger1,shirt));
         ShopApp.printEmployeeName(employees);
+        ShopApp.printEmployeeName(manger1);
        employees.printEmpPriceAfterDisc(shirt);
        employees.printEmpPriceAfterDisc(jacket);
        manger1.printEmpPriceAfterDisc(shirt);

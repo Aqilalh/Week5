@@ -24,6 +24,6 @@ public static void printEmployeeName(Employee employee){
     System.out.println(employee.name);
     }
     public static void printDiscAmtOff(Discountable[] discountables, Clothing clothing){
-        System.out.println(D);
+        System.out.println();
     }
 }
