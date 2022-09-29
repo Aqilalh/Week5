@@ -18,7 +18,7 @@ return total;
         }
     }
     public static void sortAndPrintClothing(ArrayList<Clothing> clothing){
-
+        System.out.println();
 }
 public static void printEmployeeName(Employee employee){
     System.out.println(employee.name);

@@ -32,7 +32,7 @@ public class Main {
        employees.printEmpPriceAfterDisc(shirt);
        employees.printEmpPriceAfterDisc(jacket);
        manger1.printEmpPriceAfterDisc(shirt);
-
+        manger1.printEmpPriceAfterDisc(jeans);
         }
     }
 
